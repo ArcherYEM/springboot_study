@@ -23,7 +23,11 @@ public class FreeBoardRestController {
 		return ResponseEntity.ok(freeBoardService.list(map));
 	}
 
+<<<<<<< HEAD
 	@GetMapping("/board/free/detail/{seq}")
+=======
+	@GetMapping("/board/free/detail/{}")
+>>>>>>> d351abc (1)
 	public ResponseEntity getBoardDetail(
 			@PathVariable("seq") String seq) {
 		Map map = new HashMap();
