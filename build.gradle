@@ -18,8 +18,18 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+<<<<<<< HEAD
+=======
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	runtimeOnly 'com.mysql:mysql-connector-j'
+>>>>>>> 00ab569 (정상)
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 00ab569 (정상)
